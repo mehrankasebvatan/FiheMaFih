@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">فیه ما فیه</string>
+    <string name="Licence">Molana - Copyright (C) 2022  Mehran Kasebvatan</string>
+    <string name="version">نسخه: 1.0.1</string>
+    <string name="test">این یک متن نمونه است صرفا جهت تست کارکرد برنامه</string>
+    <string name="name">مولانا؛\nفیه ما فیه</string>
+    <string name="apps">سایر برنامه ها</string>
+    <string name="rate">امتیاز به برنامه</string>
+    <string name="developer">توسعه دهنده: مهران کاسب وطن</string>
+    <string name="donate">حمایت مالی از برنامه</string>
+    <string name="telegram">تلگرام</string>
+    <string name="instagram">اینستاگرام</string>
+    <string name="github">گیتهاب</string>
+    <string name="site">وب سایت</string>
+    <string name="info">
+        این برنامه رایگان هست و رایگان خواهد ماند. \nدر صورتی که از این برنامه استفاده میکنید و رضایت دارید، می توانید از توسعه دهنده حمایت مالی انجام دهید. با کلیک روی دکمه پایین به درگاه پرداخت امن هدایت می شوید. ممنون :)
+    </string>
+    <string name="license">
+         ابن برنامه تحت لایسنس GNU GENERAL PUBLIC LICENSE Version 3 منتشر شده است. \nاستفاده شخصی جهت آموزش آزاد است ولی هر گونه بهره برداری مادی و همچنین انتشار آن در سایر مارکت های ایرانی و غیر ایرانی بدون اجاره توسعه دهنده مجاز نیست.\nزمستان 1400
+    </string>
+    <string name="about">درباره برنامه</string>
+    <string name="share">
+        \n \n \n
+        فیه ما فیه؛ برای مطالعه بیشتر از کافه بازار نصب کنید:\n
+        https://cafebazaar.ir/app/app.molana
+    </string>
+
+
+</resources>

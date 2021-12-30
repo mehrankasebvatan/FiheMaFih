@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+
+    <ScrollView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/banner_ad"
+        android:layout_below="@id/toolbar"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="none"
+        tools:context=".Activity.ContentActivity">
+
+        <androidx.cardview.widget.CardView
+            style="@style/CV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:justificationMode="inter_word"
+                android:paddingStart="10dp"
+                android:paddingTop="30dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="150dp"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+    <com.adivery.sdk.AdiveryBannerAdView
+        android:id="@+id/banner_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:banner_size="smart_banner"
+        app:placement_id="a9475647-b48f-413b-8f48-1f41dafd89a4" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_share"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/banner_ad"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp"
+        android:src="@drawable/icon_share"
+        app:tint="@color/white" />
+
+
+</RelativeLayout>
